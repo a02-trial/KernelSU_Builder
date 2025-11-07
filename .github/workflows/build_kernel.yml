@@ -15,7 +15,7 @@ jobs:
 
     env:
       VERSION: ${{ matrix.version }}
-      ARCH: arm64
+      ARCH: arm
       KBUILD_BUILD_HOST: Github-Action
       KBUILD_BUILD_USER: "KernelSU_Builder"
       CLANG_PATH: ${{ github.workspace }}/kernel/clang/bin
