@@ -2,7 +2,7 @@ LineageOS-20:
   kernel:
     - git clone https://github.com/a02-trial/BR_kernel_a02.git -b kernelku
   clang:
-    - git clone https://github.com/crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6443078.git -b 10.0
+    - git clone https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9.git -b lineage-19.1
   config:
     - make O=out ARCH=arm a02_defconfig
   build:
